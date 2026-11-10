@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Viewport meta tag: makes the page fit the phone screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Green Bean Cafe (Responsive version)</title>
+    <link rel="stylesheet" href="mobile_style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Green Bean Cafe</a>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon" aria-label="Open menu"
+        >&#9776;</label>
+      <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Fresh coffee, made with care</h1>
+        <p>
+          Visit our cozy cafe for freshly brewed coffee, tasty snacks and a calm
+          place to work or relax.
+        </p>
+        <a href="#contact" class="btn">Visit Us</a>
+      </div>
+      <img src="images/hero.jpg" alt="A cup of hot coffee" class="hero-img" />
+    </section>
+
+    <section class="features" id="menu">
+      <h2>Why people love us</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Fresh Beans</h3>
+          <p>We roast our beans every morning for the best taste.</p>
+        </div>
+        <div class="card">
+          <h3>Cozy Space</h3>
+          <p>Comfortable seats, soft music and free Wi-Fi.</p>
+        </div>
+        <div class="card">
+          <h3>Fast Service</h3>
+          <p>Your order is ready in minutes, never long waits.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <img src="images/about.jpg" alt="About our cafe" class="about-img" />
+      <div class="about-text">
+        <h2>About us</h2>
+        <p>
+          Green Bean Cafe started as a small corner shop. Today we serve
+          hundreds of happy customers every week, and we still make every cup by
+          hand.
+        </p>
+        <p>We love local farmers, simple food and good conversation.</p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Come say hello</h2>
+      <p>12 Main Road, Surat. Open daily 8 AM to 10 PM</p>
+      <a href="#" class="btn">Get Directions</a>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; 2026 Green Bean Cafe. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
